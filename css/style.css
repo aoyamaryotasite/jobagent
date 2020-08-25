@@ -1,0 +1,215 @@
+body{
+  font-size: 16px;
+  margin: 0;
+  padding:0;
+  background-color: darkgray;
+}
+
+.logo{
+  width: 250px;
+  margin-left: 40px;
+  margin-top: 15px;
+}
+
+header{
+  margin-bottom: 20px;
+}
+
+.boxA-1{
+  width: 1140px;
+  margin-top:10%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 5%;
+}
+
+/* トップへ戻る */
+
+#page_top {
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+}
+#page_top a {
+  background-color: transparent;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 10px;
+  border: 1px solid black;
+}
+#page_top a:hover {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.top-wrapper{
+  color:  black;
+  margin:0;
+  padding: 180px 0 100px 0;
+  width: auto;
+  height: 80vh;
+  font-family: 'Sawarabi Mincho', sans-serif;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../top.2.jpg);
+}
+
+span{
+color: yellow;
+}
+
+.boxA{
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-left: 20px;
+    padding-right: 20px;
+}
+
+.strong{
+  font-size: 1.5rem;
+}
+
+.performance{
+  color: red;
+  font-family: 'Sawarabi Mincho', sans-serif;
+  padding-bottom: 40px;
+  font-size: 5rem;
+}
+
+h1{
+  font-weight: 900;
+  font-family: 'Noto Sans JP', sans-serif;
+  color: white;
+  font-size: 3rem;
+  text-shadow: 1px 2px 3px #808080;
+}
+
+
+
+.boxA-1 h2{
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 3rem;
+}
+
+h3{
+  margin-top: 35px;
+  text-align: left;
+  font-weight: bold;
+  font-family: 'Noto Sans JP', sans-serif;
+
+}
+
+.lefttxt{
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 10%;
+  margin-bottom: 60px;
+  font-weight: bold;
+}
+
+.lady{
+  width: 330px;
+  margin-left: 30px;
+}
+
+.red{
+  color: red;
+}
+
+.flex{
+  display: flex;
+}
+
+.flex p{
+  color: darkmagenta;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.star{
+  color: yellow;
+}
+
+.hoshi{
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.icon{
+  width: 50px;
+}
+
+.box1-1{
+  border: 1px solid black;
+  padding:20px;
+}
+
+.box1-1 p{
+  margin-top: 5px;
+  text-align: left;
+}
+
+.box2{
+  margin-top: 10%;
+  display: flex;
+}
+
+.explain{
+  text-align: left;
+  font-size: 1.25rem;
+}
+
+.explain p{
+  border-bottom: 1px solid orange;
+  padding-top: 20px;
+}
+
+.buttun{
+  text-align: center;
+  margin-left:auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+}
+.btn-square {
+  display: inline-block;
+  padding: 1em 1em;
+  text-decoration: none;
+  background: orange;/*ボタン色*/
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+}
+.btn-square:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+}
+.btn a:hover{
+  opacity: 0.8;
+  color: #FFF;
+}
+
+
+/* フッター */
+footer{
+  padding-top: 5%;
+  width: 100%;
+    height:200px;
+  background: linear-gradient(to right, #005aa7, #fffde4);
+  color: white;
+  text-align: center;
+}
+
+.footer-menu li {
+  display: inline;
+  }
+
+
