@@ -205,7 +205,8 @@ h3{
 
 .btn-square {
   display: inline-block;
-  padding: 1em 1em;
+  padding: 1.5em 1.5em;
+  font-size: 1.5rem;
   text-decoration: none;
   background: orange;/*ボタン色*/
   color: #FFF;
