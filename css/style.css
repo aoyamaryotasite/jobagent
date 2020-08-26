@@ -325,3 +325,21 @@ h1{
   }
 
 }
+
+/* #######384px以下######### */
+@media (max-width: 384px) {
+  /* 全体の横幅を固定 */
+
+  .top-wrapper .performance{
+    font-size: 2rem;
+  }
+
+  .boxA-1 h2{
+    font-size: 1rem;
+  }
+
+  .top-wrapper h1{
+    font-size: 1rem;
+  }
+
+}
